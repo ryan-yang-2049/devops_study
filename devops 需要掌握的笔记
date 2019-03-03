@@ -1,0 +1,26 @@
+import json
+from django.http import HttpResponse, JsonResponse
+from django.shortcuts import render
+from django.template import Context, loader
+
+
+# def index(request):
+# 	data = {
+# 		"name": "ryan",
+# 		"age": 25
+# 	}
+# 	li = ['devops', 'python']
+# 	# return HttpResponse(json.dumps(data),content_type="application/json")
+# 	# return JsonResponse(data)
+# 	# 当为列表时，需要指定safe=False
+# 	return JsonResponse(data, safe=False)
+
+def index(request):
+	if request.methon == "GET":
+		print(request.GET)
+
+		data = request.GET.copy()
+		print(data)
+		data["name"] = "apple"
+
+	return HttpResponse("")
