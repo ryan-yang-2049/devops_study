@@ -8,7 +8,8 @@ from django.conf.urls import url, include
 from .views import MyView
 
 urlpatterns = [
-	url(r'user/',MyView.as_view())
+	url(r'user/$',MyView.as_view()),
+	url(r'user/(?P<user_id>\d+)/$',MyView.as_view()),
 ]
 
 

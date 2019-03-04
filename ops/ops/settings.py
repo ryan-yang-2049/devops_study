@@ -136,8 +136,33 @@ STATIC_URL = '/static/'
 
 
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,  # 是否禁用一些存在的配置
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
 
+    'handlers': {
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+    },
+    'loggers': {
+	    'reboot':{
 
+		    'level':'DEBUG',
+		    'handlers':['console']
+	    }
+    }
+}
 
 
 
