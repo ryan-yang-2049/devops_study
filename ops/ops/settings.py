@@ -146,25 +146,89 @@ LOGGING = {
         'simple': {
             'format': '%(levelname)s %(message)s'
         },
+	    'default':{
+		    'format':'%(asctime)s  %(name)s  %(levelname)s  [%(lineno)s]   %(message)s',
+		    'datefmt':'%Y-%m-%d %H:%M:%S'
+	    }
     },
 
     'handlers': {
         'console': {
-            'level': 'INFO',
+            'level': 'DEBUG',
             'class': 'logging.StreamHandler',
-            'formatter': 'simple'
+            'formatter': 'default'
         },
+	    'file': {
+		    'level': 'DEBUG',
+		    'class': 'logging.handlers.TimedRotatingFileHandler',
+		    'filename': './logs/debug.log',
+		    'when':"M",
+		    'interval':1,
+		    'formatter':'default'
+	    },
+	    'request':{
+		    'level':'DEBUG',
+		    'class':'logging.FileHandler',
+		    'filename':'./logs/request.log',
+		    'formatter':'default',
+	    },
+	    'server':{
+		    'level':'DEBUG',
+		    'class':'logging.FileHandler',
+		    'filename':'./logs/server.log',
+		    'formatter':'default',
+	    },
+	    'root':{
+		    'level': 'DEBUG',
+		    'class': 'logging.FileHandler',
+		    'filename': './logs/root.log',
+		    'formatter': 'default',
+	    },
+	    'db_backends':{
+	        'level': 'DEBUG',
+		    'class': 'logging.FileHandler',
+		    'filename': './logs/db_backends.log',
+		    'formatter': 'default',
+	    }
+
     },
     'loggers': {
 	    'reboot':{
 
 		    'level':'DEBUG',
-		    'handlers':['console']
+		    'handlers':['console','file'],
+		    'propagate':True,
+	    },
+	    'django':{
+		    'level': 'DEBUG',
+		    'handlers': ['console', 'file'],
+			'propagate':True,
+	    },
+
+	    'django.request':{
+		    'level': 'DEBUG',
+		    'handlers': ["request"],
+			'propagate':True,
+	    },
+	    'django.server':{
+		    'level': 'DEBUG',
+		    'handlers': ["server"],
+			'propagate':True,
+	    },
+	    'django.db.backends':{
+		    'level': 'DEBUG',
+		    'handlers': ["db_backends"],
+			'propagate':False,
 	    }
-    }
+
+
+    },
+	'root':{
+	    'level': 'DEBUG',
+	    'handlers': ["root"],
+
+	}
 }
-
-
 
 
 

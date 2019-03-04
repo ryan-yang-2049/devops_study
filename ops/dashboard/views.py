@@ -50,7 +50,7 @@ class Test(object):
 
 import logging
 
-logger = logging.getLogger("reboot")
+logger = logging.getLogger(__name__)
 
 
 
@@ -69,6 +69,9 @@ class MyView(View):
 
 		end = page * self.per_page_num
 		start = end - self.per_page_num
+
+		logger.warning("再来一条日志")
+
 		queryset = User.objects.all()[start:end]
 		data = list(queryset.values("username","email"))
 
