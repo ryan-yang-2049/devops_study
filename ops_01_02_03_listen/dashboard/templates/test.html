@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .page{
+            list-style-type: none;
+        }
+        .page li{float: left;margin-left: 10px;}
+
+    </style>
+</head>
+<body>
+
+    <ul>
+        {% for obj in object_list %}
+            <li>{{ obj.username }}</li>
+        {% endfor %}
+    </ul>
+    <ul class="page">
+        {% for p in paginator.page_range %}
+            <li><a href="{% url 'helo' %}">{{ p}}</a></li>
+        {% endfor %}
+    </ul>
+
+
+</body>
+</html>
