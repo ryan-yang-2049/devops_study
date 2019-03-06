@@ -25,15 +25,13 @@ class IdcSerializers(serializers.Serializer):
 
 
 	def update(self, instance, validated_data):
-
 		instance.name = validated_data.get("name",instance.name)
 		instance.address = validated_data.get("name",instance.address)
 		instance.phone = validated_data.get("name",instance.phone)
 		instance.email = validated_data.get("name",instance.email)
-
 		instance.save()
-		return instance
 
+		return instance
 
 
 
