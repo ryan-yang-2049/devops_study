@@ -40,13 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 	'rest_framework',
 	'idcs.apps.IdcsConfig',
+	'users.apps.UsersConfig',
+
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -131,99 +133,99 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,  # 是否禁用一些存在的配置
-    'formatters': {
-        'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
-        },
-        'simple': {
-            'format': '%(levelname)s %(message)s'
-        },
-	    'default':{
-		    'format':'%(asctime)s  %(name)s  %(levelname)s  [%(lineno)s]   %(message)s',
-		    'datefmt':'%Y-%m-%d %H:%M:%S'
-	    }
-    },
-
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'default'
-        },
-	    'file': {
-		    'level': 'DEBUG',
-		    'class': 'logging.handlers.TimedRotatingFileHandler',
-		    'filename': './logs/debug.log',
-		    'when':"D",
-		    'interval':1,
-		    'formatter':'default'
-	    },
-	    'request':{
-		    'level':'DEBUG',
-		    'class':'logging.FileHandler',
-		    'filename':'./logs/request.log',
-		    'formatter':'default',
-	    },
-	    'server':{
-		    'level':'DEBUG',
-		    'class':'logging.FileHandler',
-		    'filename':'./logs/server.log',
-		    'formatter':'default',
-	    },
-	    'root':{
-		    'level': 'DEBUG',
-		    'class': 'logging.FileHandler',
-		    'filename': './logs/root.log',
-		    'formatter': 'default',
-	    },
-	    'db_backends':{
-	        'level': 'DEBUG',
-		    'class': 'logging.FileHandler',
-		    'filename': './logs/db_backends.log',
-		    'formatter': 'default',
-	    }
-
-    },
-    'loggers': {
-	    'reboot':{
-
-		    'level':'DEBUG',
-		    'handlers':['console','file'],
-		    'propagate':True,
-	    },
-	    'django':{
-		    'level': 'DEBUG',
-		    'handlers': ['console', 'file'],
-			'propagate':True,
-	    },
-
-	    'django.request':{
-		    'level': 'DEBUG',
-		    'handlers': ["request"],
-			'propagate':True,
-	    },
-	    'django.server':{
-		    'level': 'DEBUG',
-		    'handlers': ["server"],
-			'propagate':True,
-	    },
-	    'django.db.backends':{
-		    'level': 'DEBUG',
-		    'handlers': ["db_backends"],
-			'propagate':False,
-	    }
-
-
-    },
-	'root':{
-	    'level': 'DEBUG',
-	    'handlers': ["root"],
-
-	}
-}
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,  # 是否禁用一些存在的配置
+#     'formatters': {
+#         'verbose': {
+#             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+#         },
+#         'simple': {
+#             'format': '%(levelname)s %(message)s'
+#         },
+# 	    'default':{
+# 		    'format':'%(asctime)s  %(name)s  %(levelname)s  [%(lineno)s]   %(message)s',
+# 		    'datefmt':'%Y-%m-%d %H:%M:%S'
+# 	    }
+#     },
+#
+#     'handlers': {
+#         'console': {
+#             'level': 'DEBUG',
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'default'
+#         },
+# 	    'file': {
+# 		    'level': 'DEBUG',
+# 		    'class': 'logging.handlers.TimedRotatingFileHandler',
+# 		    'filename': './logs/debug.log',
+# 		    'when':"D",
+# 		    'interval':1,
+# 		    'formatter':'default'
+# 	    },
+# 	    'request':{
+# 		    'level':'DEBUG',
+# 		    'class':'logging.FileHandler',
+# 		    'filename':'./logs/request.log',
+# 		    'formatter':'default',
+# 	    },
+# 	    'server':{
+# 		    'level':'DEBUG',
+# 		    'class':'logging.FileHandler',
+# 		    'filename':'./logs/server.log',
+# 		    'formatter':'default',
+# 	    },
+# 	    'root':{
+# 		    'level': 'DEBUG',
+# 		    'class': 'logging.FileHandler',
+# 		    'filename': './logs/root.log',
+# 		    'formatter': 'default',
+# 	    },
+# 	    'db_backends':{
+# 	        'level': 'DEBUG',
+# 		    'class': 'logging.FileHandler',
+# 		    'filename': './logs/db_backends.log',
+# 		    'formatter': 'default',
+# 	    }
+#
+#     },
+#     'loggers': {
+# 	    'reboot':{
+#
+# 		    'level':'DEBUG',
+# 		    'handlers':['console','file'],
+# 		    'propagate':True,
+# 	    },
+# 	    'django':{
+# 		    'level': 'DEBUG',
+# 		    'handlers': ['console', 'file'],
+# 			'propagate':True,
+# 	    },
+#
+# 	    'django.request':{
+# 		    'level': 'DEBUG',
+# 		    'handlers': ["request"],
+# 			'propagate':True,
+# 	    },
+# 	    'django.server':{
+# 		    'level': 'DEBUG',
+# 		    'handlers': ["server"],
+# 			'propagate':True,
+# 	    },
+# 	    'django.db.backends':{
+# 		    'level': 'DEBUG',
+# 		    'handlers': ["db_backends"],
+# 			'propagate':False,
+# 	    }
+#
+#
+#     },
+# 	'root':{
+# 	    'level': 'DEBUG',
+# 	    'handlers': ["root"],
+#
+# 	}
+# }
 
 
 

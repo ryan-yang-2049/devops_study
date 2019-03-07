@@ -1,25 +1,44 @@
-
-
-from django.shortcuts import render
-from django.http import HttpResponse
-from rest_framework.renderers import JSONRenderer
-
+from rest_framework import viewsets
 
 from idcs.models import Idc
 from idcs.serializers import IdcSerializers
 
 
-def  idc_list(request,*args,**kwargs):
 
-	if request.method == "GET":
-		queryset = Idc.objects.all()
-		serializer = IdcSerializers(queryset,many=True)
-		content = JSONRenderer().render(serializer.data)
-		return  HttpResponse(content,content_type="application/json")
-	elif request.method == "POST":
-		pass
+class IdcViewSet(viewsets.ModelViewSet):
+	"""
+	retrive:
+		返回指定IDC信息
+	list :
+		返回IDC列表
+	update :
+		更新IDC信息
+	destroy :
+		删除IDC记录
+	create :
+		创建IDC记录
+	partial_update :
+		更新部分字段
+	"""
 
-	return HttpResponse("")
+	queryset = Idc.objects.all()
+	serializer_class =  IdcSerializers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

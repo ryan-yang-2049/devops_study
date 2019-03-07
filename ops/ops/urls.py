@@ -15,10 +15,23 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from django.contrib import admin
+from rest_framework.routers import DefaultRouter
+from rest_framework.documentation import include_docs_urls
 
-from apps import idcs
+
+from idcs.views import IdcViewSet
+from users.views import UserViewSet
+
+router = DefaultRouter()
+router.register("idcs",IdcViewSet,base_name="idcs")
+router.register("users",UserViewSet,base_name="users")
+
+
+
+# 接口文档需要安装： python3 -m pip install coreapi
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^', include("idcs.urls")),
+    # url(r'^admin/', admin.site.urls),
+	url(r'^',include(router.urls)),
+	url(r'^docs/',include_docs_urls("51reboot运维平台接口文档"))
 ]

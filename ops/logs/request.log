@@ -1,0 +1,154 @@
+2019-03-06 17:45:32  django.request  WARNING  [152]   Not Found: /
+2019-03-06 17:48:07  django.request  WARNING  [152]   Not Found: /login/
+2019-03-07 13:05:11  django.request  ERROR  [135]   Internal Server Error: /idcs/
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "D:\gitcode\devops_study\ops\apps\idcs\views.py", line 75, in idc_list_v2
+    return JSONResponse(status=status.HTTP_400_BAD_REQUEST)
+TypeError: __init__() missing 1 required positional argument: 'data'
+2019-03-07 13:15:07  django.request  WARNING  [152]   Not Found: /idcs/2/
+2019-03-07 13:16:45  django.request  WARNING  [152]   Not Found: /idcs/2/
+2019-03-07 13:22:56  django.request  WARNING  [152]   Not Found: /dashboard/user/
+2019-03-07 13:31:26  django.request  WARNING  [152]   Not Found: /idcs/2.api
+2019-03-07 13:32:28  django.request  WARNING  [152]   Not Found: /idcs.xml
+2019-03-07 13:34:38  django.request  WARNING  [152]   Not Found: /idcs.xml
+2019-03-07 13:36:55  django.request  WARNING  [152]   Not Found: /idcs/1.api
+2019-03-07 13:37:10  django.request  WARNING  [152]   Not Found: /idc_detail_v2/
+2019-03-07 13:37:49  django.request  WARNING  [152]   Not Found: /idcs/2.json
+2019-03-07 13:38:04  django.request  WARNING  [152]   Not Found: /idcs/2.json
+2019-03-07 13:38:18  django.request  WARNING  [152]   Not Found: /idcs/2.api
+2019-03-07 13:38:53  django.request  WARNING  [152]   Not Found: /idcs/2.api
+2019-03-07 13:38:55  django.request  WARNING  [152]   Not Found: /idcs/2.api
+2019-03-07 13:39:25  django.request  WARNING  [152]   Not Found: /idcs/2.api
+2019-03-07 13:39:27  django.request  WARNING  [152]   Not Found: /idcs/2.api
+2019-03-07 13:39:30  django.request  WARNING  [152]   Not Found: /idcs/2
+2019-03-07 13:40:31  django.request  WARNING  [152]   Not Found: /idcs/2.json
+2019-03-07 13:40:56  django.request  WARNING  [152]   Not Found: /idcs/2
+2019-03-07 15:19:04  django.request  ERROR  [135]   Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "D:\gitcode\devops_study\ops\apps\idcs\views.py", line 106, in api_root
+    "idcs":reverse("idc_list_v2",request=request,format=format)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\reverse.py", line 50, in reverse
+    url = _reverse(viewname, args, kwargs, request, format, **extra)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\reverse.py", line 63, in _reverse
+    url = django_reverse(viewname, args=args, kwargs=kwargs, **extra)
+  File "C:\Python\Python36\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python\Python36\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'idc_list_v2' not found. 'idc_list_v2' is not a valid view function or pattern name.
+2019-03-07 15:19:34  django.request  WARNING  [152]   Not Found: /idcs/3/
+2019-03-07 16:45:55  django.request  WARNING  [152]   Not Found: /login/
+2019-03-07 16:47:17  django.request  WARNING  [152]   Not Found: /idcs/4
+2019-03-07 17:17:22  django.request  ERROR  [135]   Internal Server Error: /idcs/
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+AttributeError: 'IdcListViewSet' object has no attribute 'filter_queryset'
+2019-03-07 17:29:20  django.request  ERROR  [135]   Internal Server Error: /idcs/5/
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\viewsets.py", line 105, in view
+    handler = getattr(self, action)
+AttributeError: 'IdcListViewSet' object has no attribute 'update'
+2019-03-07 17:29:41  django.request  ERROR  [135]   Internal Server Error: /idcs/5/
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\viewsets.py", line 105, in view
+    handler = getattr(self, action)
+AttributeError: 'IdcListViewSet' object has no attribute 'destroy'
+2019-03-07 17:29:48  django.request  ERROR  [135]   Internal Server Error: /idcs/
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\viewsets.py", line 105, in view
+    handler = getattr(self, action)
+AttributeError: 'IdcListViewSet' object has no attribute 'create'
+2019-03-07 17:29:55  django.request  ERROR  [135]   Internal Server Error: /idcs/
+Traceback (most recent call last):
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python\Python36\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python\Python36\lib\site-packages\rest_framework\viewsets.py", line 105, in view
+    handler = getattr(self, action)
+AttributeError: 'IdcListViewSet' object has no attribute 'create'
+2019-03-07 17:48:19  django.request  WARNING  [152]   Not Found: /stark/asset/employee/list/
+2019-03-07 19:12:40  django.request  WARNING  [152]   Not Found: /user/
+2019-03-07 19:12:57  django.request  WARNING  [152]   Not Found: /users/login/
+2019-03-07 19:13:11  django.request  WARNING  [152]   Not Found: /idcc
