@@ -59,6 +59,7 @@ from idcs import views
 # ]
 # urlpatterns = format_suffix_patterns(urlpatterns)
 
+<<<<<<< HEAD
 # ############################## 版本六 ##############################
 #
 # idc_list = views.IdcListViewSetV6.as_view({
@@ -79,6 +80,11 @@ from idcs import views
 #
 # ]
 # urlpatterns = format_suffix_patterns(urlpatterns)
+=======
+	url(r'idcs/$',views.idc_list,name="idc_list"),
+	url(r'idcs/(?P<pk>\d+)/$',views.idc_detail,name="idc_detail"),
+]
+>>>>>>> 28de3e67c806bd548f32ba1fec70e7e0ab4fa46f
 
 # ############################## 版本七 ##############################
 

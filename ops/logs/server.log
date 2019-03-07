@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019-03-06 17:45:32  django.server  WARNING  [124]   "GET / HTTP/1.1" 404 2078
 2019-03-06 17:45:37  django.server  INFO  [124]   "GET /idcs HTTP/1.1" 301 0
 2019-03-06 17:45:37  django.server  INFO  [124]   "GET /idcs/ HTTP/1.1" 200 373
@@ -181,3 +182,52 @@
 2019-03-07 19:13:24  django.server  INFO  [124]   "GET /users/ HTTP/1.1" 200 9684
 2019-03-07 19:13:47  django.server  INFO  [124]   "GET / HTTP/1.1" 200 9771
 2019-03-07 19:13:50  django.server  INFO  [124]   "GET /users/ HTTP/1.1" 200 9684
+=======
+2019-03-06 22:49:33  django.server  WARNING  [124]   "GET /stark/asset/fixphone/list HTTP/1.1" 404 2171
+2019-03-06 22:50:01  django.server  INFO  [124]   "GET /idcs HTTP/1.1" 301 0
+2019-03-06 22:50:02  django.server  INFO  [124]   "GET /idcs/ HTTP/1.1" 200 373
+2019-03-06 22:50:02  django.server  WARNING  [124]   "GET /favicon.ico HTTP/1.1" 404 2129
+2019-03-06 22:50:36  django.server  INFO  [124]   "GET /idcs/ HTTP/1.1" 200 373
+2019-03-06 22:50:38  django.server  INFO  [124]   "GET /idcs/ HTTP/1.1" 200 373
+2019-03-06 22:52:04  django.server  INFO  [124]   "GET /idcs/ HTTP/1.1" 200 373
+2019-03-06 22:55:03  django.server  WARNING  [124]   "POST /idcs/ HTTP/1.1" 403 2857
+2019-03-06 22:56:06  django.server  WARNING  [124]   "POST /idcs/ HTTP/1.1" 403 2857
+2019-03-06 22:56:11  django.server  ERROR  [124]   "POST /idcs/ HTTP/1.1" 500 65233
+2019-03-06 23:03:29  django.server  ERROR  [124]   "POST /idcs HTTP/1.1" 500 64471
+2019-03-06 23:03:51  django.server  ERROR  [124]   "POST /idcs HTTP/1.1" 500 63969
+2019-03-06 23:04:19  django.server  ERROR  [124]   "POST /idcs/ HTTP/1.1" 500 64677
+2019-03-06 23:07:38  django.server  ERROR  [124]   "POST /idcs/ HTTP/1.1" 500 64677
+2019-03-06 23:08:29  django.server  ERROR  [124]   "POST /idcs/ HTTP/1.1" 500 64677
+2019-03-06 23:09:56  django.server  INFO  [124]   "POST /idcs/ HTTP/1.1" 200 0
+2019-03-06 23:11:23  django.server  INFO  [124]   "POST /idcs/ HTTP/1.1" 200 9
+2019-03-06 23:18:13  django.server  INFO  [124]   "POST /idcs/ HTTP/1.1" 200 9
+2019-03-06 23:20:35  django.server  INFO  [124]   "POST /idcs/ HTTP/1.1" 200 121
+2019-03-06 23:26:25  django.server  ERROR  [124]   "GET /idcs/ HTTP/1.1" 500 73659
+2019-03-06 23:26:41  django.server  ERROR  [124]   "GET /idcs/ HTTP/1.1" 500 73665
+2019-03-06 23:29:04  django.server  ERROR  [124]   "GET /idcs/ HTTP/1.1" 500 74739
+2019-03-06 23:32:11  django.server  INFO  [124]   "GET /idcs/ HTTP/1.1" 200 739
+2019-03-06 23:47:41  django.server  INFO  [124]   "GET /idcs/1 HTTP/1.1" 301 0
+2019-03-06 23:47:42  django.server  ERROR  [124]   "GET /idcs/1/ HTTP/1.1" 500 92468
+2019-03-06 23:48:20  django.server  ERROR  [124]   "GET /idcs/1/ HTTP/1.1" 500 92326
+2019-03-06 23:48:31  django.server  ERROR  [124]   "GET /idcs/1/ HTTP/1.1" 500 92326
+2019-03-06 23:50:18  django.server  INFO  [124]   "GET /idcs/1/ HTTP/1.1" 200 121
+2019-03-06 23:50:24  django.server  INFO  [124]   "GET /idcs/2/ HTTP/1.1" 200 127
+2019-03-06 23:50:29  django.server  INFO  [124]   "GET /idcs/3 HTTP/1.1" 301 0
+2019-03-06 23:50:29  django.server  WARNING  [124]   "GET /idcs/3/ HTTP/1.1" 404 0
+2019-03-06 23:50:41  django.server  WARNING  [124]   "GET /idcs/3/ HTTP/1.1" 404 0
+2019-03-06 23:50:43  django.server  WARNING  [124]   "GET /idcs/3/ HTTP/1.1" 404 0
+2019-03-06 23:50:49  django.server  INFO  [124]   "GET /idcs/4/ HTTP/1.1" 200 121
+2019-03-06 23:52:14  django.server  INFO  [124]   "GET /idcs/1/ HTTP/1.1" 200 121
+2019-03-06 23:52:54  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:53:17  django.server  INFO  [124]   "GET /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:54:25  django.server  INFO  [124]   "GET /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:54:26  django.server  INFO  [124]   "GET /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:54:27  django.server  INFO  [124]   "GET /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:54:35  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:57:02  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:57:04  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:57:06  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:57:07  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:57:08  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+2019-03-06 23:57:09  django.server  INFO  [124]   "PUT /idcs/1/ HTTP/1.1" 200 115
+>>>>>>> 28de3e67c806bd548f32ba1fec70e7e0ab4fa46f

@@ -384,6 +384,7 @@
 2019-03-06 17:39:04  django.db.backends  DEBUG  [91]   (0.007) SELECT VERSION(); args=None
 2019-03-06 17:39:05  django.db.backends  DEBUG  [91]   (0.009) SHOW FULL TABLES; args=None
 2019-03-06 17:39:05  django.db.backends  DEBUG  [91]   (0.008) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+<<<<<<< HEAD
 2019-03-06 17:45:37  django.db.backends  DEBUG  [91]   (0.006) SELECT @@SQL_AUTO_IS_NULL; args=None
 2019-03-06 17:45:37  django.db.backends  DEBUG  [91]   (0.006) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
 2019-03-06 17:48:17  django.db.backends  DEBUG  [91]   (0.010) SELECT @@SQL_AUTO_IS_NULL; args=None
@@ -1099,3 +1100,205 @@
 2019-03-07 19:14:14  django.db.backends  DEBUG  [91]   (0.006) SELECT VERSION(); args=None
 2019-03-07 19:14:14  django.db.backends  DEBUG  [91]   (0.009) SHOW FULL TABLES; args=None
 2019-03-07 19:14:14  django.db.backends  DEBUG  [91]   (0.008) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+=======
+2019-03-06 22:49:28  django.db.backends  DEBUG  [90]   (0.010) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:49:28  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 22:49:28  django.db.backends  DEBUG  [90]   (0.008) SHOW FULL TABLES; args=None
+2019-03-06 22:49:28  django.db.backends  DEBUG  [90]   (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 22:50:01  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:50:01  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 22:50:32  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:50:32  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 22:50:32  django.db.backends  DEBUG  [90]   (0.008) SHOW FULL TABLES; args=None
+2019-03-06 22:50:32  django.db.backends  DEBUG  [90]   (0.008) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 22:50:36  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:50:36  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 22:50:38  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:50:38  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 22:52:02  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:52:02  django.db.backends  DEBUG  [90]   (0.010) SELECT VERSION(); args=None
+2019-03-06 22:52:02  django.db.backends  DEBUG  [90]   (0.011) SHOW FULL TABLES; args=None
+2019-03-06 22:52:02  django.db.backends  DEBUG  [90]   (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 22:52:04  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:52:04  django.db.backends  DEBUG  [90]   (0.012) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 22:56:07  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 22:56:07  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 22:56:07  django.db.backends  DEBUG  [90]   (0.011) SHOW FULL TABLES; args=None
+2019-03-06 22:56:07  django.db.backends  DEBUG  [90]   (0.018) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:09:52  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:09:52  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:09:53  django.db.backends  DEBUG  [90]   (0.011) SHOW FULL TABLES; args=None
+2019-03-06 23:09:53  django.db.backends  DEBUG  [90]   (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:11:00  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:11:00  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:11:20  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:11:20  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:11:21  django.db.backends  DEBUG  [90]   (0.009) SHOW FULL TABLES; args=None
+2019-03-06 23:11:21  django.db.backends  DEBUG  [90]   (0.013) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:11:23  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:11:23  django.db.backends  DEBUG  [90]   (0.008) INSERT INTO `resourse_idc` (`name`, `address`, `phone`, `email`, `letter`) VALUES ('北蔡机房', '上海北蔡机房', '12345678', '461580544@qq.com', 'bc'); args=['北蔡机房', '上海北蔡机房', '12345678', '461580544@qq.com', 'bc']
+2019-03-06 23:18:13  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:18:13  django.db.backends  DEBUG  [90]   (0.007) INSERT INTO `resourse_idc` (`name`, `address`, `phone`, `email`, `letter`) VALUES ('北蔡机房', '上海北蔡机房', '12345678', '461580544@qq.com', 'bc'); args=['北蔡机房', '上海北蔡机房', '12345678', '461580544@qq.com', 'bc']
+2019-03-06 23:20:29  django.db.backends  DEBUG  [90]   (0.010) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:20:29  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:20:30  django.db.backends  DEBUG  [90]   (0.009) SHOW FULL TABLES; args=None
+2019-03-06 23:20:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:20:35  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:20:35  django.db.backends  DEBUG  [90]   (0.013) INSERT INTO `resourse_idc` (`name`, `address`, `phone`, `email`, `letter`) VALUES ('北蔡机房', '上海北蔡机房', '12345678', '461580544@qq.com', 'bc'); args=['北蔡机房', '上海北蔡机房', '12345678', '461580544@qq.com', 'bc']
+2019-03-06 23:26:23  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:26:23  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:26:24  django.db.backends  DEBUG  [90]   (0.010) SHOW FULL TABLES; args=None
+2019-03-06 23:26:24  django.db.backends  DEBUG  [90]   (0.020) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:26:25  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:26:25  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 23:26:40  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:26:40  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:26:40  django.db.backends  DEBUG  [90]   (0.009) SHOW FULL TABLES; args=None
+2019-03-06 23:26:40  django.db.backends  DEBUG  [90]   (0.009) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:26:41  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:26:41  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 23:27:51  django.db.backends  DEBUG  [90]   (0.012) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:27:51  django.db.backends  DEBUG  [90]   (0.013) SELECT VERSION(); args=None
+2019-03-06 23:27:52  django.db.backends  DEBUG  [90]   (0.011) SHOW FULL TABLES; args=None
+2019-03-06 23:27:52  django.db.backends  DEBUG  [90]   (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:29:04  django.db.backends  DEBUG  [90]   (0.010) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:29:04  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 23:29:04  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:29:04  django.db.backends  DEBUG  [90]   (0.010) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'zab5hvavkkocczcnsab10ap9w0ern1pe' AND `django_session`.`expire_date` > '2019-03-06 15:29:04.791710'); args=('zab5hvavkkocczcnsab10ap9w0ern1pe', '2019-03-06 15:29:04.791710')
+2019-03-06 23:32:10  django.db.backends  DEBUG  [90]   (0.014) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:32:10  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:32:11  django.db.backends  DEBUG  [90]   (0.014) SHOW FULL TABLES; args=None
+2019-03-06 23:32:11  django.db.backends  DEBUG  [90]   (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:32:11  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:32:11  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc`; args=()
+2019-03-06 23:36:09  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:36:09  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:36:09  django.db.backends  DEBUG  [90]   (0.014) SHOW FULL TABLES; args=None
+2019-03-06 23:36:09  django.db.backends  DEBUG  [90]   (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:41:37  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:41:37  django.db.backends  DEBUG  [90]   (0.010) SELECT VERSION(); args=None
+2019-03-06 23:41:38  django.db.backends  DEBUG  [90]   (0.011) SHOW FULL TABLES; args=None
+2019-03-06 23:41:38  django.db.backends  DEBUG  [90]   (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:47:35  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:47:35  django.db.backends  DEBUG  [90]   (0.010) SELECT VERSION(); args=None
+2019-03-06 23:47:35  django.db.backends  DEBUG  [90]   (0.008) SHOW FULL TABLES; args=None
+2019-03-06 23:47:35  django.db.backends  DEBUG  [90]   (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.018) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.016) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:41  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:42  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:47:42  django.db.backends  DEBUG  [90]   (0.032) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:19  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:48:19  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:20  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:27  django.db.backends  DEBUG  [90]   (0.031) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:48:27  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:48:28  django.db.backends  DEBUG  [90]   (0.015) SHOW FULL TABLES; args=None
+2019-03-06 23:48:28  django.db.backends  DEBUG  [90]   (0.008) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.008) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.012) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:48:30  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1 LIMIT 21; args=(1,)
+2019-03-06 23:50:15  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:15  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:50:15  django.db.backends  DEBUG  [90]   (0.010) SHOW FULL TABLES; args=None
+2019-03-06 23:50:15  django.db.backends  DEBUG  [90]   (0.011) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:50:18  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:18  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:50:18  django.db.backends  DEBUG  [90]   (0.013) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:50:24  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:24  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:50:24  django.db.backends  DEBUG  [90]   (0.008) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 2; args=(2,)
+2019-03-06 23:50:29  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:29  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:50:29  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 3; args=(3,)
+2019-03-06 23:50:41  django.db.backends  DEBUG  [90]   (0.013) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:41  django.db.backends  DEBUG  [90]   (0.010) SELECT VERSION(); args=None
+2019-03-06 23:50:41  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 3; args=(3,)
+2019-03-06 23:50:43  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:43  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:50:43  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 3; args=(3,)
+2019-03-06 23:50:49  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:50:49  django.db.backends  DEBUG  [90]   (0.011) SELECT VERSION(); args=None
+2019-03-06 23:50:49  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 4; args=(4,)
+2019-03-06 23:52:14  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:52:14  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:52:14  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:52:54  django.db.backends  DEBUG  [90]   (0.010) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:52:54  django.db.backends  DEBUG  [90]   (0.010) SELECT VERSION(); args=None
+2019-03-06 23:52:54  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:52:54  django.db.backends  DEBUG  [90]   (0.039) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:53:17  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:53:17  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:53:17  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:54:21  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:54:21  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:54:21  django.db.backends  DEBUG  [90]   (0.008) SHOW FULL TABLES; args=None
+2019-03-06 23:54:21  django.db.backends  DEBUG  [90]   (0.009) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:54:25  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:54:25  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:54:25  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:54:26  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:54:26  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:54:26  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:54:27  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:54:27  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:54:27  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:54:35  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:54:35  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:54:35  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:54:35  django.db.backends  DEBUG  [90]   (0.007) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:56:58  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:56:58  django.db.backends  DEBUG  [90]   (0.011) SELECT VERSION(); args=None
+2019-03-06 23:56:59  django.db.backends  DEBUG  [90]   (0.019) SHOW FULL TABLES; args=None
+2019-03-06 23:56:59  django.db.backends  DEBUG  [90]   (0.009) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2019-03-06 23:57:02  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:57:02  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:57:02  django.db.backends  DEBUG  [90]   (0.011) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:57:02  django.db.backends  DEBUG  [90]   (0.009) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:57:04  django.db.backends  DEBUG  [90]   (0.008) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:57:04  django.db.backends  DEBUG  [90]   (0.013) SELECT VERSION(); args=None
+2019-03-06 23:57:04  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:57:04  django.db.backends  DEBUG  [90]   (0.011) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:57:06  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:57:06  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:57:06  django.db.backends  DEBUG  [90]   (0.009) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:57:06  django.db.backends  DEBUG  [90]   (0.007) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:57:07  django.db.backends  DEBUG  [90]   (0.011) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:57:07  django.db.backends  DEBUG  [90]   (0.009) SELECT VERSION(); args=None
+2019-03-06 23:57:07  django.db.backends  DEBUG  [90]   (0.008) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:57:07  django.db.backends  DEBUG  [90]   (0.008) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:57:08  django.db.backends  DEBUG  [90]   (0.007) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:57:08  django.db.backends  DEBUG  [90]   (0.007) SELECT VERSION(); args=None
+2019-03-06 23:57:08  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:57:08  django.db.backends  DEBUG  [90]   (0.009) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:57:09  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:57:09  django.db.backends  DEBUG  [90]   (0.010) SELECT VERSION(); args=None
+2019-03-06 23:57:09  django.db.backends  DEBUG  [90]   (0.010) SELECT `resourse_idc`.`id`, `resourse_idc`.`name`, `resourse_idc`.`address`, `resourse_idc`.`phone`, `resourse_idc`.`email`, `resourse_idc`.`letter` FROM `resourse_idc` WHERE `resourse_idc`.`id` = 1; args=(1,)
+2019-03-06 23:57:09  django.db.backends  DEBUG  [90]   (0.010) UPDATE `resourse_idc` SET `name` = '亦庄机房', `address` = '亦庄机房', `phone` = '亦庄机房', `email` = '亦庄机房', `letter` = 'yz' WHERE `resourse_idc`.`id` = 1; args=('亦庄机房', '亦庄机房', '亦庄机房', '亦庄机房', 'yz', 1)
+2019-03-06 23:58:45  django.db.backends  DEBUG  [90]   (0.009) SELECT @@SQL_AUTO_IS_NULL; args=None
+2019-03-06 23:58:45  django.db.backends  DEBUG  [90]   (0.008) SELECT VERSION(); args=None
+2019-03-06 23:58:46  django.db.backends  DEBUG  [90]   (0.008) SHOW FULL TABLES; args=None
+2019-03-06 23:58:46  django.db.backends  DEBUG  [90]   (0.010) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+>>>>>>> 28de3e67c806bd548f32ba1fec70e7e0ab4fa46f
