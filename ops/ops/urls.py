@@ -21,10 +21,12 @@ from rest_framework.documentation import include_docs_urls
 
 from idcs.views import IdcViewSet
 from users.views import UserViewSet
+from cabinet.views import CabinetViewSet
 
 router = DefaultRouter()
 router.register("idcs",IdcViewSet,base_name="idcs")
 router.register("users",UserViewSet,base_name="users")
+router.register("cabinet",CabinetViewSet,base_name="cabinet")
 
 
 

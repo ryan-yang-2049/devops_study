@@ -12,7 +12,7 @@ class UserViewSet(viewsets.ReadOnlyModelViewSet):
 	list     : 返回用户列表
 	"""
 
-	queryset = User.objects.all()[:10]
+	queryset = User.objects.all()
 	serializer_class = UserSerializer
 
 

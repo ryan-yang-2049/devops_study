@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 	'rest_framework',
 	'idcs.apps.IdcsConfig',
 	'users.apps.UsersConfig',
+	'cabinet.apps.CabinetConfig',
 
 ]
 
